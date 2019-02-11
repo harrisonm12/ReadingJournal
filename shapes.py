@@ -39,7 +39,7 @@ def circle(t,r):
     polygon(t, n, length)
 
 #Exercise 5
-def draw_archimedian_spiral(t, n, length=3, a=0.1, b=0.0002):
+def draw_archimedian_spiral(t, n, length, a, b):
     #I received a decent amount of help from the wikipedia page provided in the book and from Downey's code to help me learn what theta was and what parameters were neccesary in the function
     #a determines how loose the spiral begins as.  A larger a means a looser draw_archimedian_spiral
     #b determines how tightly coiled the spiral overall is.  A larger b means looser spirals
